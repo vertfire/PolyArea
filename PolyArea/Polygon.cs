@@ -68,7 +68,7 @@ namespace PolyArea
             }
             Vertices = vertices;
             Sides = PolygonAnalyzer.GetSides(this);
-            Type = PolygonAnalyzer.Classify(this);
+            //Type = PolygonAnalyzer.Classify(this);
         }
 
     }

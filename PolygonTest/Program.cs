@@ -11,14 +11,18 @@ namespace PolygonTest
             Polygon p = new Polygon(
                 new Vector2[]
                 {
-                    new Vector2(0,0),
-                    new Vector2(0,1),
                     new Vector2(1,1),
-                    new Vector2(1,0),
+                    new Vector2(1,2),
+                    new Vector2(2,2),
+                    new Vector2(2,1),
 
                 }
                 );
-            Console.WriteLine(p.Sides);
+            Console.WriteLine("hello");
+            foreach (var side in p.Sides)
+            {
+                Console.WriteLine(side);
+            }
         }
     }
 }
